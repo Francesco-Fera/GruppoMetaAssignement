@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glz:Config xmlns:glz="http://www.glizy.org/dtd/1.0/">
+    <glz:Param name="archive" value="archive/" />
+    <glz:Param name="imageCache" value="cache/" />
+    <glz:Param name="mode" value="GDLIB" />
+    <glz:Param name="jpg_compression" value="90" />
+
+    <glz:Group name="thumbnail">
+        <glz:Param name="width" value="100" />
+        <glz:Param name="height" value="*" />
+        <glz:Param name="crop" value="false" />
+        <glz:Param name="filters[]" value="FlipHorizontal" />
+        <glz:Param name="filters[]" value="BlackAndWhite" />
+    </glz:Group>
+    <glz:Group name="medium">
+        <glz:Param name="width" value="400" />
+        <glz:Param name="height" value="400" />
+        <glz:Param name="crop" value="true" />
+    </glz:Group>
+    <glz:Group name="full">
+        <glz:Param name="width" value="800" />
+        <glz:Param name="height" value="600" />
+        <glz:Param name="crop" value="false" />
+    </glz:Group>
+</glz:Config>

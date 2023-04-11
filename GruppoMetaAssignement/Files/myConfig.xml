@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glz:Config xmlns:glz="http://www.glizy.org/dtd/1.0/">
+    <glz:Import src="import1.xml" />
+
+    <glz:Group name="thumbnail">
+        <glz:Param name="width" value="400" />
+        <glz:Param name="height" value="400" />
+    </glz:Group>
+
+    <glz:Param name="arrayvalue[]" value="abc" />
+    <glz:Param name="arrayvalue[]" value="def" />
+
+    <glz:Group name="group">
+        <glz:Group name="innergroup">
+            <glz:Param name="value1" value="abc" />
+            <glz:Param name="value2" value="def" />
+        </glz:Group>
+    </glz:Group>
+
+    <glz:Param name="longtext"><![CDATA[
+        <p>Lorem ipsum dolor sit amket, consectetur adipiscing elit. Magna laus. Cave putes quicquam esse verius. Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Duo Reges: constructio interrete. </p>
+    ]]></glz:Param>
+
+    <glz:Import src="import2.xml" />
+</glz:Config>
