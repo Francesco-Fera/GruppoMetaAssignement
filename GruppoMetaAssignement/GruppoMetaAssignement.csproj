@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspose.Imaging" Version="23.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="imageCache\" />
+  </ItemGroup>
+
 </Project>
